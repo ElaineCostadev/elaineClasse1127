@@ -1,0 +1,110 @@
+{
+	"data": {
+		"movies": {
+			"movie": [
+				{
+					"title": "Harry Potter",
+					"year": "2001",
+					"cast": "Daniel Radcliffe",
+					"genre": "Sci-Fi",
+					"synopsis": "Harry Potter é um garoto órfão que vive infeliz com seus tios, os Dursleys. Ele recebe uma carta contendo um convite para ingressar em Hogwarts, uma famosa escola especializada em formar jovens bruxos. Inicialmente, Harry é impedido de ler a carta por seu tio, mas logo recebe a visita de Hagrid, o guarda-caça de Hogwarts, que chega para levá-lo até a escola. Harry adentra um mundo mágico que jamais imaginara, vivendo diversas aventuras com seus novos amigos, Rony Weasley e Hermione Granger."
+				},
+				{
+					"title": "Star Wars: Episode V - The Empire Strikes Back",
+					"year": "1980",
+					"cast": "Irvin Kershner",
+					"synopsis": "Sci-Fi"
+				},
+				{
+					"title": "Star Wars: Episode VI - Return of the Jedi",
+					"year": "1983",
+					"cast": "Richard Marquand",
+					"synopsis": "Sci-Fi"
+				}
+			]
+		},
+		"books": {
+			"book": [
+				{
+					"title": "Os Segredos da Mente Milionaria",
+					"year": "1992",
+					"author": "T Herv Eker",
+					"genre": "Auto Ajuda",
+					"numberOfPages": "176"
+				},
+				{
+					"title": "O Obstaculo é o Caminho",
+					"year": "2022",
+					"author": "Ryan Holiday",
+					"numberOfPages": "240"
+				},
+				{
+					"title": "O poder do Agora",
+					"year": "2000",
+					"author": "Eckhart Tolle",
+					"numberOfPages": "240"
+				}
+			]
+		},
+		"foods": {
+			"food": [
+				{
+					"title": "Lasanha",
+					"ingredients": {
+						"ingredient": [
+							"1 pacote de lasanha pre pronta",
+							"Molho de tomate",
+							"Carne moída",
+							"Queijo mussarela",
+							"Presunto"
+						]
+					}
+				},
+				{
+					"title": "Carne Louca",
+					"ingredients": {
+						"ingredient": [
+							"Carne Acem desfiada",
+							"Cebola",
+							"Pimentao vermelho e amarelo",
+							"Tomate",
+							"Alho"
+						]
+					}
+				},
+				{
+					"ingredients": {
+						"ingredient": [
+							"Leite Condensado",
+							"Chocolate em pó",
+							"Manteiga"
+						]
+					}
+				}
+			]
+		}
+	}
+}
+
+
+// {
+// 	"Version": "2012-10-17",
+// 	"Statement": [
+// 		/* {
+// 			"Sid": "Statement1",
+// 			"Effect": "Allow",
+// 			"Action": [],
+// 			"Resource": []
+// 		}, */
+// 		{
+//             "Sid": "VisualEditor",
+//             "Effect": "Allow",
+//             "Action": [
+//                 "bedrock:InvokeModel",
+//                 "bedrock:ListCustomModels",
+//                 "bedrock:ListFoundationModels"
+//             ],
+//             "Resource": "*"
+//         }
+// 	]
+// }
